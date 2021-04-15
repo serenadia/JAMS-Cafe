@@ -53,6 +53,11 @@ a:active{
   color: black;
 }
 
+.create {
+  margin-top:1%;
+  margin-left:5%;
+}
+
 /* Column container */
 .row {  
   display: flex;
