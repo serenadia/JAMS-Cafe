@@ -1,4 +1,3 @@
-
 * {
   box-sizing: border-box;
 }
@@ -12,7 +11,7 @@ body {
 .header {
   padding: 80px;
   text-align: center;
-  background: #54E6FF;
+  background: #54e6ff;
   color: white;
 }
 
@@ -24,7 +23,7 @@ body {
 /* Style the top navigation bar */
 .navbar {
   overflow: hidden;
-  background-color: #FF336E;
+  background-color: #ff336e;
 }
 
 /* Style the navigation bar links */
@@ -49,7 +48,7 @@ body {
 }
 
 /* Column container */
-.row {  
+.row {
   display: flex;
   flex-wrap: wrap;
 }
@@ -63,8 +62,13 @@ body {
 }
 
 /* Main column */
-.main {   
+.main {
   flex: 70%;
   background-color: white;
   padding: 20px;
+}
+
+h5 {
+  font-size: 40px;
+  font-weight: bold;
 }
