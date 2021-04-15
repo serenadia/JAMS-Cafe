@@ -1,3 +1,4 @@
+
 * {
   box-sizing: border-box;
 }
@@ -11,7 +12,7 @@ body {
 .header {
   padding: 80px;
   text-align: center;
-  background: #54e6ff;
+  background: #54E6FF;
   color: white;
 }
 
@@ -23,7 +24,7 @@ body {
 /* Style the top navigation bar */
 .navbar {
   overflow: hidden;
-  background-color: #ff336e;
+  background-color: #FF336E;
 }
 
 /* Style the navigation bar links */
@@ -48,7 +49,7 @@ body {
 }
 
 /* Column container */
-.row {
+.row {  
   display: flex;
   flex-wrap: wrap;
 }
@@ -62,13 +63,15 @@ body {
 }
 
 /* Main column */
-.main {
+.main {   
   flex: 70%;
   background-color: white;
   padding: 20px;
 }
 
-h5 {
-  font-size: 40px;
-  font-weight: bold;
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
 }
