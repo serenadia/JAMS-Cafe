@@ -57,7 +57,7 @@ a:active{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color:white;
+  background-color:pink;
   border: 10px solid;
   border-color:#e2bcb7;
   border-radius:8px;
