@@ -76,7 +76,10 @@ body {
   width: 100%;
   padding: 20px;
 }
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 .dropbtn {
   background-color: #04AA6D;
   color: white;
@@ -85,7 +88,36 @@ body {
   border: none;
 }
 
+<<<<<<< Updated upstream
 .dropdown {
+=======
+.coffee_dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.tea_dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.bev_dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.sandwich_dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.soup_dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.pastry_dropdown {
+>>>>>>> Stashed changes
   position: relative;
   display: inline-block;
 }
@@ -108,6 +140,32 @@ body {
 
 .dropdown-content a:hover {background-color: #ddd;}
 
+<<<<<<< Updated upstream
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
+=======
+.coffee_dropdown:hover .dropdown-content {display: block;}
+
+.coffee_dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.tea_dropdown:hover .dropdown-content {display: block;}
+
+.tea_dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.bev_dropdown:hover .dropdown-content {display: block;}
+
+.bev_dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.sandwich_dropdown:hover .dropdown-content {display: block;}
+
+.sandwich_dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.soup_dropdown:hover .dropdown-content {display: block;}
+
+.soup_dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.pastry_dropdown:hover .dropdown-content {display: block;}
+
+.pastry_dropdown:hover .dropbtn {background-color: #3e8e41;}
+>>>>>>> Stashed changes
