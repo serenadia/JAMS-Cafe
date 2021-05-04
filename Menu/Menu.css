@@ -1,20 +1,21 @@
 
+
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: Times New Roman, Helvetica, sans-serif;
-  margin: 0;
-  
+    font-family: Times New Roman, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #e4d3cf;
 }
 
 /* Style the header */
 .header {
-  padding: 80px;
-  text-align: center;
-  background: #54E6FF;
-  color: white;
+    padding: 80px;
+    text-align: center;
+    background: #9e9d89;
+    color: white;
 }
 
 /* Increase the font size of the h1 element */
@@ -24,8 +25,8 @@ body {
 
 /* Style the top navigation bar */
 .navbar {
-  overflow: hidden;
-  background-color: #FF336E;
+    overflow: hidden;
+    background-color: #b67162;
 }
 
 /* Style the navigation bar links */
@@ -76,10 +77,6 @@ body {
   width: 100%;
   padding: 20px;
 }
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
 .dropbtn {
   background-color: #04AA6D;
   color: white;
@@ -88,9 +85,6 @@ body {
   border: none;
 }
 
-<<<<<<< Updated upstream
-.dropdown {
-=======
 .coffee_dropdown {
   position: relative;
   display: inline-block;
@@ -117,7 +111,6 @@ body {
 }
 
 .pastry_dropdown {
->>>>>>> Stashed changes
   position: relative;
   display: inline-block;
 }
@@ -140,11 +133,6 @@ body {
 
 .dropdown-content a:hover {background-color: #ddd;}
 
-<<<<<<< Updated upstream
-.dropdown:hover .dropdown-content {display: block;}
-
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
-=======
 .coffee_dropdown:hover .dropdown-content {display: block;}
 
 .coffee_dropdown:hover .dropbtn {background-color: #3e8e41;}
@@ -168,4 +156,3 @@ body {
 .pastry_dropdown:hover .dropdown-content {display: block;}
 
 .pastry_dropdown:hover .dropbtn {background-color: #3e8e41;}
->>>>>>> Stashed changes
