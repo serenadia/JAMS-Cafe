@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Times New Roman, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #f2eae8;
+  color: #b67162;
+}
+
+/* Increase the font size of the h1 element */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #e2bcb7;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #edeef7;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: #b2b2af;
+  padding: 20px;
+  color: white;
+}
+
+/* Main column */
+.main {   
+  flex: 70%;
+  background-color: #b67162;
+  color: white;
+  padding: 20px;
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>JAMS Cafe</h1>
+  <p>The convergence of websites and blogs is here. JAMS Cafe is an interactive interface that increases interaction between restaurants and their customers. Typically, websites are left underdeveloped or become very static due to lack of appeal and organization of information compared to other service apps. With our project, we hope we can create an interface to build a relationship and attraction between the two parties by keeping the site dynamic and appealing. 
+  </p>
+</div>
+
+<div class="navbar">
+  <a href="Homepage.html">Home</a>
+  <a href="Reviews.html">Reviews</a>
+  <a href="../Menu/Menu.html">Menu</a>
+  <a href="../Articles/Article.html">Events</a>
+   
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>Reviews</h2>
+    <h4>User: Anne</h4>
+    <p>"Love the food and the ambiance! Great service!!!"</p>
+    <h4>User: Joe</h4>
+    <p>"Could have been better, be careful of the really busy lines"</p>
+    <form action="Reviews.html">
+   <label for="name">First name:</label><br>
+   <input type="text" id="name" name="name"><br>
+   <label for="review">Review:</label><br>
+   <input type="text" id="lname" name="review"><br><br>
+   <input type="submit" value="Submit">
+    </form>
+    
+  </div>
+
+  <div class="main">
+    <h2>Restaurant</h2>
+    <h4>Starbucks</h4>
+    <img src="starbucks.jpg" alt="coffee" width="400" height="250">
+    
+
+    
+  </div>
+</div>
+
+</body>
+</html>
