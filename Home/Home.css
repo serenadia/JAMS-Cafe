@@ -1,19 +1,19 @@
-
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: Times New Roman, Helvetica, sans-serif;
-  margin: 0;
+    font-family: Times New Roman, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #e4d3cf;
 }
 
 /* Style the header */
 .header {
-  padding: 80px;
-  text-align: center;
-  background: #54E6FF;
-  color: white;
+    padding: 80px;
+    text-align: center;
+    background: #9e9d89;
+    color: white;
 }
 
 /* Increase the font size of the h1 element */
@@ -23,8 +23,8 @@ body {
 
 /* Style the top navigation bar */
 .navbar {
-  overflow: hidden;
-  background-color: #FF336E;
+    overflow: hidden;
+    background-color: #b67162;
 }
 
 /* Style the navigation bar links */
