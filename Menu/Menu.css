@@ -73,9 +73,27 @@ body {
 
 /* Fake image, just for this example */
 .fakeimg {
-  background-color: #aaa;
-  width: 100%;
-  padding: 20px;
+  display:flex;
+  justify-content: center;
+  margin-left:auto;
+  margin-right: auto;
+
+}
+
+.align{
+  display: inline-block;
+  flex-direction: column;
+  justify-content: center;
+  margin-left:auto;
+  margin-right: auto;
+
+
+}
+.table{
+  display: flex;
+
+  margin-left:auto;
+  margin-right: auto;
 }
 .dropbtn {
   background-color: #04AA6D;

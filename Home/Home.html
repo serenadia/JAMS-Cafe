@@ -1,74 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Page Title</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="Home.css" />
-  </head>
-  <body>
-    <div class="header">
-      <h1>JAMS Cafe</h1>
-      <p>
-        The convergence of websites and blogs is here. JAMS Cafe is an
-        interactive interface that increases interaction between restaurants and
-        their customers. Typically, websites are left underdeveloped or become
-        very static due to lack of appeal and organization of information
-        compared to other service apps. With our project, we hope we can create
-        an interface to build a relationship and attraction between the two
-        parties by keeping the site dynamic and appealing.
-      </p>
-    </div>
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
 
-    <div class="navbar">
+body {
+    font-family: Times New Roman, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #e4d3cf;
+}
+
+/* Style the header */
+.header {
+    padding: 80px;
+    text-align: center;
+    background: #9e9d89;
+    color: white;
+}
+
+/* Increase the font size of the h1 element */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: #b67162;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>JAMS Cafe</h1>
+  <p>The convergence of websites and blogs is here. JAMS Cafe is an interactive interface that increases interaction between restaurants and their customers. Typically, websites are left underdeveloped or become very static due to lack of appeal and organization of information compared to other service apps. With our project, we hope we can create an interface to build a relationship and attraction between the two parties by keeping the site dynamic and appealing. 
+  </p>
+</div>
+
+<div class="navbar">
       <a href="#">Home</a>
       <a href="../Reviews/Reviews.html">Reviews</a>
-      <a href="../Menu/Menu.html">Menu</a>
+      <a href="../Menu/Meny.html">Menu</a>
       <a href="../Articles/Article.html">Events</a>
     </div>
 
-    <div class="row">
-      <div class="side">
-        <h2>About Us</h2>
-        <h5>Our Team Mascot:</h5>
-        <img
-          src="../assets/cherry_panda.jpg"
-          alt="panda"
-          width="400"
-          height="400"
-        />
-        <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
-        <h3>More Text</h3>
-        <p>Lorem ipsum dolor sit ame.</p>
-        <div class="fakeimg" style="height: 60px">Image</div>
-        <br />
-        <div class="fakeimg" style="height: 60px">Image</div>
-        <br />
-        <div class="fakeimg" style="height: 60px">Image</div>
-      </div>
-      <div class="main">
-        <h2>TITLE HEADING</h2>
-        <h5>Title description, Dec 7, 2017</h5>
-        <div class="fakeimg" style="height: 200px">Image</div>
-        <p>Some text..</p>
-        <p>
-          Sunt in culpa qui officia deserunt mollit anim id est laborum
-          consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-          exercitation ullamco.
-        </p>
-        <br />
-        <h2>TITLE HEADING</h2>
-        <h5>Title description, Sep 2, 2017</h5>
-        <div class="fakeimg" style="height: 200px">Image</div>
-        <p>Some text..</p>
-        <p>
-          Sunt in culpa qui officia deserunt mollit anim id est laborum
-          consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-          exercitation ullamco.
-        </p>
-      </div>
-    </div>
-  </body>
+<div class="row">
+  <div class="side">
+    <h2>About Us</h2>
+    <h4>Our Team Mascot:</h4>
+    <img src="../assets/coffee.jpg" alt="coffee" width="400" height="350">
+    <h3>About our Developers:</h3>
+    <p>Our Team is made up of four female Software Engineering majors at Stevens Institute of Technology. The first Initial of each of their names was the inspiration for JAMS cafe:</p>
+    <ul style="list-style-type:none;">
+        <li>Jolene Ciccarone</li>
+        <li>Anjali Paliwal</li>
+        <li>Mya Phu</li>
+        <li>Serena Lee</li>
+    </ul> 
+    <h4>Our Real Team Mascot:</h4>
+    <img src="../assets/cherry_panda.jpg" alt="panda" width="400" height="400">
+
+    
+  </div>
+  <div class="main">
+    <h2>Restaurants</h2>
+    <h4>Rooney's Oceanfront Restaurant</h4>
+    <img src="../assets/Rooney.jpg" alt="Rooney" width="1000" height="300">
+    <p>Salty, ocean breezes, the wind is most definitely in your hair at this rustic, seaside dining experience ~~ </p>
+    <h4>HVERDAGEN Restaurant</h4>
+    <img src="../assets/japan.jpg" alt="japan" width="1000" height="300">
+    <p>Elegant long tables and grand pillars? Count me in for this modern take on Japenese cuisine and culture!</p>
+    <h4>Pink Mamma in Paris, France</h4>
+    <img src="../assets/pretty.jpg" alt="pink mama" width="1000" height="400">
+    <p>Not only is this place the perfect combination of comfort and elegance, but the decorations aren't the only organic things growing in this Parisian Palace ~~ </p>
+    
+  </div>
+</div>
+
+</body>
 </html>
