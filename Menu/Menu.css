@@ -96,7 +96,7 @@ body {
   margin-right: auto;
 }
 .dropbtn {
-  background-color: #04AA6D;
+  background-color: #b67162;
   color: white;
   padding: 16px;
   font-size: 16px;
@@ -153,24 +153,24 @@ body {
 
 .coffee_dropdown:hover .dropdown-content {display: block;}
 
-.coffee_dropdown:hover .dropbtn {background-color: #3e8e41;}
+.coffee_dropdown:hover .dropbtn {background-color: #ddd;}
 
 .tea_dropdown:hover .dropdown-content {display: block;}
 
-.tea_dropdown:hover .dropbtn {background-color: #3e8e41;}
+.tea_dropdown:hover .dropbtn {background-color: #ddd;}
 
 .bev_dropdown:hover .dropdown-content {display: block;}
 
-.bev_dropdown:hover .dropbtn {background-color: #3e8e41;}
+.bev_dropdown:hover .dropbtn {background-color: #ddd;}
 
 .sandwich_dropdown:hover .dropdown-content {display: block;}
 
-.sandwich_dropdown:hover .dropbtn {background-color: #3e8e41;}
+.sandwich_dropdown:hover .dropbtn {background-color: #ddd;}
 
 .soup_dropdown:hover .dropdown-content {display: block;}
 
-.soup_dropdown:hover .dropbtn {background-color: #3e8e41;}
+.soup_dropdown:hover .dropbtn {background-color: #ddd;}
 
 .pastry_dropdown:hover .dropdown-content {display: block;}
 
-.pastry_dropdown:hover .dropbtn {background-color: #3e8e41;}
+.pastry_dropdown:hover .dropbtn {background-color: #ddd;}
